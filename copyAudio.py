@@ -1,3 +1,6 @@
+#tutorial: https://www.youtube.com/watch?v=mYUyaKmvu6Y&t=970s&ab_channel=freeCodeCamp.org
+
+
 # Audio file formats
 # mp3
 # flac
@@ -11,6 +14,8 @@ import wave
 # framrate/sample_rate (sample frequency, 44,100 hz means we get 44,100 samples each second)
 # number of frames
 # values of a frame (when loaded will be in binary, but can be converted to integer values latter)
+
+
 
 #pip inistall pyaudio
 
@@ -40,6 +45,8 @@ obj_new.setnframes(144000)
 
 obj_new.writeframes(frames)
 obj_new.close()
+
+
 #------------------------------chat gpt----------------------------
 
 # import torch
